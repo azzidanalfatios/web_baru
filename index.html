@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Colorful Web</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#ff7eb3,#65d6ff,#ffd166);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.container{
+background:white;
+max-width:900px;
+width:100%;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+overflow:hidden;
+}
+
+header{
+background:linear-gradient(90deg,#ff6ec4,#7873f5);
+color:white;
+padding:25px;
+text-align:center;
+}
+
+header h1{
+font-size:28px;
+}
+
+.content{
+padding:30px;
+display:flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
+gap:20px;
+}
+
+.content img{
+width:100%;
+max-width:500px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.description{
+font-size:16px;
+color:#444;
+line-height:1.6;
+}
+
+.button{
+background:linear-gradient(90deg,#36d1dc,#5b86e5);
+color:white;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+.button:hover{
+transform:scale(1.05);
+}
+
+footer{
+background:#f4f4f4;
+text-align:center;
+padding:15px;
+font-size:14px;
+}
+
+/* Responsive */
+@media (max-width:600px){
+header h1{
+font-size:22px;
+}
+
+.description{
+font-size:14px;
+}
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+<h1>My Colorful Responsive Website</h1>
+</header>
+
+<div class="content">
+
+<img src="WIN_20260112_18_47_24_Pro.jpg" alt="Foto">
+
+<p class="description">
+semangatt sayangg hari inii, maaf yaa gabisa nemenin, tapi nanti ke rs aku temenin kok
+</p>
+
+<a class="button" href="#">LOVE UU!!!</a>
+
+</div>
+
+<footer>
+© 2026 My Website
+</footer>
+
+</div>
+
+</body>
+</html>
